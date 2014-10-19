@@ -12,13 +12,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Prepare empty task - for connecting in series
+        // PREPARE EMPTY TASK - FOR CONNECTING IN SERIES
         var task = BFTask(result: nil)
         
         // 1. ASYNCRONOUS CONNECTION TO YAHOO
         task = task.continueWithBlock({ (task: BFTask!) -> BFTask! in
             
-            // INSTANSIATE TASK COMPLETION
+            // INSTANTIATE TASK COMPLETION
             
             let taskCompletion = BFTaskCompletionSource()
             
@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         // 2. ASYNCRONOUS CONNECTION TO GOOGLE
         task = task.continueWithBlock({ (task: BFTask!) -> BFTask! in
             
-            // INSTANSIATE TASK COMPLETION
+            // INSTANTIATE TASK COMPLETION
             
             let taskCompletion = BFTaskCompletionSource()
             
