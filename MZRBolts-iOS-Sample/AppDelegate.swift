@@ -2,8 +2,6 @@
 //  AppDelegate.swift
 //  MZRBolts-iOS-Sample
 //
-//  Created by MORITA NAOKI on 2014/10/19.
-//  Copyright (c) 2014年 molabo. All rights reserved.
 //
 
 import UIKit

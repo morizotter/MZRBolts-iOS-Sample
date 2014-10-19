@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B4BF0286DAD4C969893B5E2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DED8D843CF5C4B41A01F2451 /* libPods.a */; };
 		FF4ED6FB19F3AF5400FC9B68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED6FA19F3AF5400FC9B68 /* AppDelegate.swift */; };
 		FF4ED6FD19F3AF5400FC9B68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED6FC19F3AF5400FC9B68 /* ViewController.swift */; };
 		FF4ED70019F3AF5400FC9B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4ED6FE19F3AF5400FC9B68 /* Main.storyboard */; };
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5BCE7150D36D4ED8B4FDCB0F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		DED8D843CF5C4B41A01F2451 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4ED6F519F3AF5400FC9B68 /* MZRBolts-iOS-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MZRBolts-iOS-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4ED6F919F3AF5400FC9B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF4ED6FA19F3AF5400FC9B68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		FF4ED70A19F3AF5400FC9B68 /* MZRBolts-iOS-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MZRBolts-iOS-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4ED70F19F3AF5400FC9B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF4ED71019F3AF5400FC9B68 /* MZRBolts_iOS_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZRBolts_iOS_SampleTests.swift; sourceTree = "<group>"; };
+		FFB0914A19F3B13C00558B03 /* MZRBolts-iOS-Sample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MZRBolts-iOS-Sample-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4BF0286DAD4C969893B5E2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +61,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BAEB118176794FED9D198AA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DED8D843CF5C4B41A01F2451 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF4ED6EC19F3AF5400FC9B68 = {
 			isa = PBXGroup;
 			children = (
 				FF4ED6F719F3AF5400FC9B68 /* MZRBolts-iOS-Sample */,
 				FF4ED70D19F3AF5400FC9B68 /* MZRBolts-iOS-SampleTests */,
 				FF4ED6F619F3AF5400FC9B68 /* Products */,
+				5BCE7150D36D4ED8B4FDCB0F /* Pods.xcconfig */,
+				BAEB118176794FED9D198AA8 /* Frameworks */,
+				FFB0914A19F3B13C00558B03 /* MZRBolts-iOS-Sample-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF4ED71419F3AF5400FC9B68 /* Build configuration list for PBXNativeTarget "MZRBolts-iOS-Sample" */;
 			buildPhases = (
+				61C94DDB01444D6387898A71 /* Check Pods Manifest.lock */,
 				FF4ED6F119F3AF5400FC9B68 /* Sources */,
 				FF4ED6F219F3AF5400FC9B68 /* Frameworks */,
 				FF4ED6F319F3AF5400FC9B68 /* Resources */,
+				7D1F953AE11D4FD98635686A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,6 +224,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61C94DDB01444D6387898A71 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D1F953AE11D4FD98635686A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF4ED6F119F3AF5400FC9B68 /* Sources */ = {
@@ -334,21 +385,28 @@
 		};
 		FF4ED71519F3AF5400FC9B68 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BCE7150D36D4ED8B4FDCB0F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "MZRBolts-iOS-Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MZRBolts-iOS-Sample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		FF4ED71619F3AF5400FC9B68 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BCE7150D36D4ED8B4FDCB0F /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "MZRBolts-iOS-Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MZRBolts-iOS-Sample-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +463,7 @@
 				FF4ED71619F3AF5400FC9B68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF4ED71719F3AF5400FC9B68 /* Build configuration list for PBXNativeTarget "MZRBolts-iOS-SampleTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +472,7 @@
 				FF4ED71919F3AF5400FC9B68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

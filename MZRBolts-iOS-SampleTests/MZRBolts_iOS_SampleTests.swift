@@ -2,8 +2,7 @@
 //  MZRBolts_iOS_SampleTests.swift
 //  MZRBolts-iOS-SampleTests
 //
-//  Created by MORITA NAOKI on 2014/10/19.
-//  Copyright (c) 2014年 molabo. All rights reserved.
+//  Copyright (c) 2014 molabo. All rights reserved.
 //
 
 import UIKit
