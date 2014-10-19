@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // PREPARE EMPTY TASK - FOR CONNECTING IN SERIES
+        // PREPARE EMPTY TASK - FOR EXECUTING TASK IN SERIES
         var task = BFTask(result: nil)
         
         // 1. ASYNCRONOUS CONNECTION TO YAHOO
@@ -22,7 +22,7 @@ class ViewController: UIViewController {
             
             let taskCompletion = BFTaskCompletionSource()
             
-            // ASYNCRONOUS CONNECTION
+            // ASYNCRONOUS NETWORK
             
             let url = "http://yahoo.co.jp"
             let session = NSURLSession.sharedSession()
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
             })
             sessionTask.resume()
             
-            // RETURN TASK COMPLETION
+            // RETURN TASK
             
             return taskCompletion.task
         })
@@ -49,7 +49,7 @@ class ViewController: UIViewController {
             
             let taskCompletion = BFTaskCompletionSource()
             
-            // ASYNCRONOUS CONNECTION
+            // ASYNCRONOUS NETWORK
             
             let url = "http://google.com"
             let session = NSURLSession.sharedSession()
@@ -64,7 +64,7 @@ class ViewController: UIViewController {
             })
             sessionTask.resume()
             
-            // RETURN TASK COMPLETION
+            // RETURN TASK
             
             return taskCompletion.task
         })
