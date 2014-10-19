@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF4ED6FB19F3AF5400FC9B68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED6FA19F3AF5400FC9B68 /* AppDelegate.swift */; };
+		FF4ED6FD19F3AF5400FC9B68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED6FC19F3AF5400FC9B68 /* ViewController.swift */; };
+		FF4ED70019F3AF5400FC9B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4ED6FE19F3AF5400FC9B68 /* Main.storyboard */; };
+		FF4ED70219F3AF5400FC9B68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4ED70119F3AF5400FC9B68 /* Images.xcassets */; };
+		FF4ED70519F3AF5400FC9B68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF4ED70319F3AF5400FC9B68 /* LaunchScreen.xib */; };
+		FF4ED71119F3AF5400FC9B68 /* MZRBolts_iOS_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4ED71019F3AF5400FC9B68 /* MZRBolts_iOS_SampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF4ED70B19F3AF5400FC9B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4ED6ED19F3AF5400FC9B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF4ED6F419F3AF5400FC9B68;
+			remoteInfo = "MZRBolts-iOS-Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF4ED6F519F3AF5400FC9B68 /* MZRBolts-iOS-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MZRBolts-iOS-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4ED6F919F3AF5400FC9B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4ED6FA19F3AF5400FC9B68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF4ED6FC19F3AF5400FC9B68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF4ED6FF19F3AF5400FC9B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF4ED70119F3AF5400FC9B68 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF4ED70419F3AF5400FC9B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FF4ED70A19F3AF5400FC9B68 /* MZRBolts-iOS-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MZRBolts-iOS-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4ED70F19F3AF5400FC9B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4ED71019F3AF5400FC9B68 /* MZRBolts_iOS_SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZRBolts_iOS_SampleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4ED6F219F3AF5400FC9B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4ED70719F3AF5400FC9B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF4ED6EC19F3AF5400FC9B68 = {
+			isa = PBXGroup;
+			children = (
+				FF4ED6F719F3AF5400FC9B68 /* MZRBolts-iOS-Sample */,
+				FF4ED70D19F3AF5400FC9B68 /* MZRBolts-iOS-SampleTests */,
+				FF4ED6F619F3AF5400FC9B68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF4ED6F619F3AF5400FC9B68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF4ED6F519F3AF5400FC9B68 /* MZRBolts-iOS-Sample.app */,
+				FF4ED70A19F3AF5400FC9B68 /* MZRBolts-iOS-SampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF4ED6F719F3AF5400FC9B68 /* MZRBolts-iOS-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				FF4ED6FA19F3AF5400FC9B68 /* AppDelegate.swift */,
+				FF4ED6FC19F3AF5400FC9B68 /* ViewController.swift */,
+				FF4ED6FE19F3AF5400FC9B68 /* Main.storyboard */,
+				FF4ED70119F3AF5400FC9B68 /* Images.xcassets */,
+				FF4ED70319F3AF5400FC9B68 /* LaunchScreen.xib */,
+				FF4ED6F819F3AF5400FC9B68 /* Supporting Files */,
+			);
+			path = "MZRBolts-iOS-Sample";
+			sourceTree = "<group>";
+		};
+		FF4ED6F819F3AF5400FC9B68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF4ED6F919F3AF5400FC9B68 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF4ED70D19F3AF5400FC9B68 /* MZRBolts-iOS-SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF4ED71019F3AF5400FC9B68 /* MZRBolts_iOS_SampleTests.swift */,
+				FF4ED70E19F3AF5400FC9B68 /* Supporting Files */,
+			);
+			path = "MZRBolts-iOS-SampleTests";
+			sourceTree = "<group>";
+		};
+		FF4ED70E19F3AF5400FC9B68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF4ED70F19F3AF5400FC9B68 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF4ED6F419F3AF5400FC9B68 /* MZRBolts-iOS-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4ED71419F3AF5400FC9B68 /* Build configuration list for PBXNativeTarget "MZRBolts-iOS-Sample" */;
+			buildPhases = (
+				FF4ED6F119F3AF5400FC9B68 /* Sources */,
+				FF4ED6F219F3AF5400FC9B68 /* Frameworks */,
+				FF4ED6F319F3AF5400FC9B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MZRBolts-iOS-Sample";
+			productName = "MZRBolts-iOS-Sample";
+			productReference = FF4ED6F519F3AF5400FC9B68 /* MZRBolts-iOS-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF4ED70919F3AF5400FC9B68 /* MZRBolts-iOS-SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4ED71719F3AF5400FC9B68 /* Build configuration list for PBXNativeTarget "MZRBolts-iOS-SampleTests" */;
+			buildPhases = (
+				FF4ED70619F3AF5400FC9B68 /* Sources */,
+				FF4ED70719F3AF5400FC9B68 /* Frameworks */,
+				FF4ED70819F3AF5400FC9B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF4ED70C19F3AF5400FC9B68 /* PBXTargetDependency */,
+			);
+			name = "MZRBolts-iOS-SampleTests";
+			productName = "MZRBolts-iOS-SampleTests";
+			productReference = FF4ED70A19F3AF5400FC9B68 /* MZRBolts-iOS-SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF4ED6ED19F3AF5400FC9B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = molabo;
+				TargetAttributes = {
+					FF4ED6F419F3AF5400FC9B68 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					FF4ED70919F3AF5400FC9B68 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = FF4ED6F419F3AF5400FC9B68;
+					};
+				};
+			};
+			buildConfigurationList = FF4ED6F019F3AF5400FC9B68 /* Build configuration list for PBXProject "MZRBolts-iOS-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF4ED6EC19F3AF5400FC9B68;
+			productRefGroup = FF4ED6F619F3AF5400FC9B68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF4ED6F419F3AF5400FC9B68 /* MZRBolts-iOS-Sample */,
+				FF4ED70919F3AF5400FC9B68 /* MZRBolts-iOS-SampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF4ED6F319F3AF5400FC9B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4ED70019F3AF5400FC9B68 /* Main.storyboard in Resources */,
+				FF4ED70519F3AF5400FC9B68 /* LaunchScreen.xib in Resources */,
+				FF4ED70219F3AF5400FC9B68 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4ED70819F3AF5400FC9B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF4ED6F119F3AF5400FC9B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4ED6FD19F3AF5400FC9B68 /* ViewController.swift in Sources */,
+				FF4ED6FB19F3AF5400FC9B68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4ED70619F3AF5400FC9B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4ED71119F3AF5400FC9B68 /* MZRBolts_iOS_SampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF4ED70C19F3AF5400FC9B68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF4ED6F419F3AF5400FC9B68 /* MZRBolts-iOS-Sample */;
+			targetProxy = FF4ED70B19F3AF5400FC9B68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF4ED6FE19F3AF5400FC9B68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4ED6FF19F3AF5400FC9B68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF4ED70319F3AF5400FC9B68 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4ED70419F3AF5400FC9B68 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF4ED71219F3AF5400FC9B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF4ED71319F3AF5400FC9B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF4ED71519F3AF5400FC9B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MZRBolts-iOS-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF4ED71619F3AF5400FC9B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MZRBolts-iOS-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF4ED71819F3AF5400FC9B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MZRBolts-iOS-SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZRBolts-iOS-Sample.app/MZRBolts-iOS-Sample";
+			};
+			name = Debug;
+		};
+		FF4ED71919F3AF5400FC9B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MZRBolts-iOS-SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MZRBolts-iOS-Sample.app/MZRBolts-iOS-Sample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF4ED6F019F3AF5400FC9B68 /* Build configuration list for PBXProject "MZRBolts-iOS-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4ED71219F3AF5400FC9B68 /* Debug */,
+				FF4ED71319F3AF5400FC9B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4ED71419F3AF5400FC9B68 /* Build configuration list for PBXNativeTarget "MZRBolts-iOS-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4ED71519F3AF5400FC9B68 /* Debug */,
+				FF4ED71619F3AF5400FC9B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF4ED71719F3AF5400FC9B68 /* Build configuration list for PBXNativeTarget "MZRBolts-iOS-SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4ED71819F3AF5400FC9B68 /* Debug */,
+				FF4ED71919F3AF5400FC9B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF4ED6ED19F3AF5400FC9B68 /* Project object */;
+}
